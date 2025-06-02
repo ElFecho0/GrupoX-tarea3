@@ -5,7 +5,7 @@
   <fernandflores@alumnos.uai.cl>
 
 - **Matías Silva** <br>
-  <jojuica@alumnos.uai.cl>
+  <matiasasilva@alumnos.uai.cl>
 
 -**** <br>
   <czeballos@alumnos.uai.cl>
