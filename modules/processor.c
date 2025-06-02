@@ -1,4 +1,3 @@
-// modules/processor.c
 #define _POSIX_C_SOURCE 200809L
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,7 +9,7 @@
 #define MAX_LINE 100
 #define MAX_CIUDADES 100
 
-// ===================== FUNCIONES AUXILIARES ===================== //
+// Funciones Auxiliares
 
 int obtenerIndice(Grafo* g, const char* ciudad) {
     for (int i = 0; i < g->numVertices; i++) {
@@ -46,7 +45,7 @@ void agregarArista(Grafo* g, const char* origen, const char* destino, int peso) 
     g->adyacentes[j] = nuevo2;
 }
 
-// ===================== LECTURA DE ARCHIVO ===================== //
+// Lectura de archivo
 
 Grafo* crearGrafoDesdeArchivo(const char* filename) {
     FILE* f = fopen(filename, "r");
@@ -66,7 +65,7 @@ Grafo* crearGrafoDesdeArchivo(const char* filename) {
     return g;
 }
 
-// ===================== ALGORITMO DE DIJKSTRA ===================== //
+// Algoritmo de Dijkstra
 
 void encontrarRutaMinima(Grafo* g, const char* origen, const char* destino) {
     int n = g->numVertices;
@@ -126,7 +125,7 @@ void encontrarRutaMinima(Grafo* g, const char* origen, const char* destino) {
     printf("\nDistancia total: %d km\n", dist[dst]);
 }
 
-// ===================== LIBERAR MEMORIA ===================== //
+// Liberar memoria
 
 void liberarGrafo(Grafo* g) {
     for (int i = 0; i < g->numVertices; i++) {
