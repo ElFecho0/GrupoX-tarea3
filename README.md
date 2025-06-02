@@ -17,4 +17,5 @@
 - **3: make clean (para limpiar los archivos temporales que quitan recursos)**
 
 ## **Como funciona:**
-si
+- **El equipo optó por usar listas enlazadas para la realización de la tarea, ya que se hace más cómodo tanto para el manejo de datos, flexibilidad para añadir más nodos, y menor uso de memoria, se usa un Makefile que ejecuta todo el trabajo y este está organizado en distintos archivos para mejorar el debugging y evitar warnings. Este código se ejecuta y compila desde la terminal, donde se entrega el .txt y los argumentos (origen y destino) y entrega el camino hacia el destino, ademas de la suma de distancias hacia este. Se lee el .txt para hacer la lista y se toma en cuenta los argumentos que se ponen en la consola para el desarrollo del ejercicio, asegurando que no hayan mas argumentos. Finalmente se usa el algoritmo de 
+Dijkstra para entregar la solución del ejercicio. Cada archivo tiene sus propios comentarios para una mejor comprensión del código**
