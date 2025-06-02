@@ -7,11 +7,14 @@
 - **Matías Silva** <br>
   <matiasasilva@alumnos.uai.cl>
 
--**** <br>
-  <czeballos@alumnos.uai.cl>
+-**Matías Sepulveda** <br>
+  <@alumnos.uai.cl>
 
 ## **Forma de uso: Terminal**
 - **Para correr el codigo escribe en la terminal:**
-- **1: cd App2 (Te ubica en el directorio App2/, servira para ejecutar el codigo)**
-- **2: mvn clean package (compila y empaca en .jar)**
-- **3: java -cp target/mi-proyecto-1.0-SNAPSHOT.jar com.ejemplo.App2 src/main/java/com/ejemplo/cultivos.csv (corre el codigo)**
+- **1: make (Activa el Makefile, crea un ejecutable del proyecto y compila)**
+- **2: ./tarea3 rutas.txt "ARG1" "ARG2" (ejecuta main.c)**
+- **3: make clean (para limpiar los archivos temporales que quitan recursos)**
+
+## **Como funciona:**
+si
