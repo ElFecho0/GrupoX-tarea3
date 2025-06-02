@@ -13,7 +13,7 @@
 ## **Forma de uso: Terminal**
 - **Para correr el codigo escribe en la terminal:**
 - **1: make (Activa el Makefile, crea un ejecutable del proyecto y compila)**
-- **2: ./tarea3 rutas.txt "ARG1" "ARG2" (ejecuta el ejecutable llamado "tarea3")**
+- **2: ./tarea3 rutas.txt "Origen" "Destino" (ejecuta el ejecutable llamado "tarea3")**
 - **3: make clean (para limpiar los archivos temporales que quitan recursos)**
 
 ## **Como funciona:**
