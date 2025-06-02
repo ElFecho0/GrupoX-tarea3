@@ -8,7 +8,7 @@
   <matiasasilva@alumnos.uai.cl>
 
 - **Matías Sepulveda** <br>
-  <@alumnos.uai.cl>
+  <matiasisepulveda@alumnos.uai.cl>
 
 ## **Forma de uso: Terminal**
 - **Para correr el codigo escribe en la terminal:**
