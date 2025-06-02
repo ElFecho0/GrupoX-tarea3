@@ -7,7 +7,7 @@
 - **Matías Silva** <br>
   <matiasasilva@alumnos.uai.cl>
 
--**Matías Sepulveda** <br>
+- **Matías Sepulveda** <br>
   <@alumnos.uai.cl>
 
 ## **Forma de uso: Terminal**
