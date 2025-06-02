@@ -1,4 +1,3 @@
-// modules/sorter.c
 #include <stdio.h>
 #include <string.h>
 #include "sorter.h"
